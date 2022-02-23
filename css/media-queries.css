@@ -105,5 +105,64 @@ footer {
 /*}*/
 
 @media screen and (min-width: 992px) {
+   main {
+       display: flex;
+       /*flex-direction: column;*/
+       font-family: sans-serif;
+       /*justify-content: center;*/
+       max-width: 990px;
+       flex-wrap: wrap;
+   }
+    h1 {
+        font-size: 47px;
+        /*text-align: center;*/
+        /*position: relative;*/
+        align-items: flex-start;
+        top: 5px;
+        margin: 0 0 40px 0;
+    }
+    .nav-links {
+        background-color: white;
+        display:flex;
+        flex-direction: row;
+        /*padding: 1em;*/
+        /*margin: .5em .5em;*/
+        /*align-items: flex-end;*/
+        width: 285%;
+        justify-content: flex-end;
+
+        /*flex-wrap: wrap;*/
+        /*align-self: flex-end;*/
+        align-items: flex-end;
+        height: 3.5em;
+
+
+    }
+    .hidden-on-desktop {
+        display: none
+    }
+
+    li a {
+        background: white;
+        list-style-type: none;
+        margin: .5em 0;
+        padding: 10px;
+        font-weight: normal;
+    }
+    .header-img {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        border: solid;
+    }
+
+    section {
+        flex-direction: row;
+        /*flex-wrap: wrap;*/
+        font-size: 19px;
+        display: flex;
+
+    }
 
 }
