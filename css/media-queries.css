@@ -8,6 +8,7 @@ main {
     font-family: sans-serif;
     margin: auto;
     /*justify-content: center;*/
+    max-width: 700px;
 
 
 }
@@ -15,8 +16,10 @@ main {
 .nav-links {
     display: flex;
     flex-direction: column;
-    padding: 1em;
-    margin: .5em .5em;
+    /*padding: 1em;*/
+    /*margin: .5em .5em;*/
+    width: 100%;
+    padding: 0;
 }
 
 li {
@@ -35,16 +38,14 @@ li a {
     text-align: center;
 }
 
-.hidden-on-desktop {
-
+.alert-info {
     display: inline-block;
     text-align: center;
     width: 100%;
     background: rgb(187, 234, 234);
-    padding: 1em;
-    margin: .5em .5em;
+    padding: 1em 0;
+    /*margin: .5em .5em;*/
     border: solid lightgrey;
-
 }
 
 h1 {
