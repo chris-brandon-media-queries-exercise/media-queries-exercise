@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 .nav-links {
     display: flex;
     flex-direction: column;
@@ -12,5 +9,13 @@ ul {
 
 li {
     list-style-type: none;
+    margin: .5em 0;
 }
->>>>>>> 1f33dfe47827e226a0aec4b36a3ccdd7c3c4a7ee
+
+li a {
+    display: inline-block;
+    background: grey;
+    padding: 1em;
+    width: 100%;
+    text-align: center;
+}
