@@ -1,1 +1,16 @@
+<<<<<<< HEAD
 
+=======
+.nav-links {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style-type: none;
+}
+>>>>>>> 1f33dfe47827e226a0aec4b36a3ccdd7c3c4a7ee
