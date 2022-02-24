@@ -72,9 +72,7 @@ footer i {
 footer p {
     font-size: 14px;
 }
-span img {
-    display: none;
-}
+
 a:link {
     color: blue;
 
@@ -114,7 +112,6 @@ a:active {
     .nav-bar {
         display: flex;
         background: transparent;
-
         width: 100%;
     }
 
